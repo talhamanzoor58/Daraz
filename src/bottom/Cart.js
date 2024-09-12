@@ -8,7 +8,7 @@ import RazorpayCheckout from 'react-native-razorpay';
 import { useNavigation } from '@react-navigation/native'
 
 
-
+//cart
 const Cart = () => {
   const cart=useSelector((state)=>state.reducer)
   const dispatch=useDispatch()
