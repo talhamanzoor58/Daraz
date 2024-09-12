@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import AppNavigator from './src/AppNavigator'
 
-const App = () => {
+const PaymenUI = () => {
   return (
-   <AppNavigator/>
+    <View>
+      <Text>PaymenUI</Text>
+    </View>
   )
 }
 
-export default App
+export default PaymenUI
 
 const styles = StyleSheet.create({})

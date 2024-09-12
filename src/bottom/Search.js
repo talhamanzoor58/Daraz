@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import AppNavigator from './src/AppNavigator'
 
-const App = () => {
+const Search = () => {
   return (
-   <AppNavigator/>
+    <View>
+      <Text>Search</Text>
+    </View>
   )
 }
 
-export default App
+export default Search
 
 const styles = StyleSheet.create({})
